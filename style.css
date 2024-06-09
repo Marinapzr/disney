@@ -1,0 +1,116 @@
+* {
+    margin: 0; /*remove margens padrão*/
+    padding: 0; /* remove o padding padrão*/
+    box-sizing: border-box;
+}
+
+
+
+header{
+
+    background-color: black;/*cor de dentro da header*/
+    width:100%;/*largura da header de 100%, ocupa todo o espaço da tela*/
+    height: 20vh;/*altura*/  
+}
+
+nav{
+    font-family: "Lily Script One", system-ui;/* fonte dos links*/
+    display: flex; /* tranforma a header em um conteiner flexivel*/
+    justify-content: space-evenly;/*alinha os intens da nav com espaçamento igual entre os elementos*/
+    align-items: center;/*alinha do centro da nav*/   
+}   
+
+
+ nav a {
+    color: white;/*cor dos links*/
+    text-decoration:none ;/*remove bolinhas e Underline da lista ou das <a>*/
+    font-size: 20px;/*tamanho das fontes ou letras*/
+    padding-top: 50px;/* espaço que se dar dos links do topo da header*/
+ }
+ 
+ nav a:hover {
+    color: rgb(20, 169, 228); 
+    /* Cor do texto quando o mouse passa sobre ele */
+}
+
+
+
+.banner{
+
+ width: 100%;/*tamanho da largura do banner, ou seja , ira ocupar 100% da tela*/
+ height: 70vh;
+ 
+}
+
+
+.banner img {
+   
+    width: 100%; /* A imagem ocupa 100% da largura do tamanho da div */
+    height: 100%;/*a imagem ocupa 100% da largura do tamanho da div*/
+}
+
+.parte1 img{
+   
+    width: 25%;
+    border-radius: 18px;/* deixa as bordas da imagem  arrendondadas*/
+  
+}
+.parte1{
+   
+    display:inline-flex;/*deixa lado a lado*/
+    justify-content: space-evenly;/*espaçamento igual entre os elementos*/
+    margin-top: 5%; /* distancia a div do topo*/
+  
+}
+
+.parte2 img{
+    width: 25%;
+    border-radius: 18px; /* deixa as bordas da imagem arredondadas*/
+   
+}
+
+.parte2{
+  
+    display:inline-flex;/*deixa lado a lado*/
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.parte1 img:hover {
+    border: 5px solid rgb(20, 169, 228); /* Borda azul ao passar o mouse */
+}
+
+.parte2 img:hover{
+    border: 5px solid rgb(20, 169, 228); 
+
+}
+
+footer p{
+
+    width: 100%;/*largura*/
+    color:white;
+    margin-left: 5%;
+    font-size: 18px;/*tamanho da letra*/
+}
+
+footer img{
+   
+    width: 60px;
+    display:inline-block;/*forma em bloco e coloca um do lado do outro*/
+    margin-right: 10px;/* ira se afastar da margin*/
+   
+    
+}
+
+
+
+footer{
+ 
+    height: 20vh;/*altura da footer*/
+    background-color: black;
+    margin-top:10%;/*espaçamento acima*/
+    display: flex;/*conteiner das imagens como blocos flexiveis*/
+    justify-content: space-evenly;/*distribui espaços iguais entre os elementos*/
+    align-items: center;/*alinha os intens do centro da footer*/
+
+}
